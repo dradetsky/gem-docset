@@ -3,6 +3,12 @@ gem-docset
 
 make a docset from a gem
 
+WARNING
+-------
+
+this is a WIP. there's still uncommitted stuff on my laptop. may not
+work yet.
+
 usage
 -----
 
