@@ -55,3 +55,20 @@ I found [yasslab/docset](https://github.com/yasslab/docset) handy.
 I've ended up having to refactor it to the point where I'll probably
 have to just fork it (especially since they don't appear to have
 touched it lately), but hey.
+
+see also
+--------
+
+If this doesn't entirely meet your needs, you can look
+into [yard-dash](https://github.com/caomania/yard-dash). A previous
+attempt to update this exists
+at [ffmike/yard-dash](https://github.com/ffmike/yard-dash), although
+that's currently a bit of a fixer-upper too.
+
+Arguably, I should have tried to fix that instead of making this.
+However, I'm not totally familiar with yard to begin with, and using
+that seemed to involve a parsing-html step before generating a search
+index. That might be fine, but it's a great way to introduce errors
+into the process, and it's obviously strictly inferior to just
+generating the search index directly from structured data that already
+maps 1-1 to the documentation.
